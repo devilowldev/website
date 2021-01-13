@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "A devilowldev website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": "https://github.com/devilowldev/website.git",
+  "author": "devilowldev",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
