@@ -16,4 +16,8 @@ app.use('/project', router.get('/'), (req, res) => {
     res.render('project')
 })
 
+app.get('*', (req, res) => {
+  res.render('404');
+})
+
 module.exports = app
