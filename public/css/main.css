@@ -163,11 +163,26 @@ body {
     max-height: 50%;
   }
 
+  .chat-position {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 60%;
+    max-height: 50%;
+  }
+
   @media only screen and (max-width: 768px) {
     .center-position {
       left: 27%;
     }
     .project-position {
+        left: 27%;
+    }
+
+    .chat-position {
         left: 27%;
     }
   }
@@ -177,6 +192,10 @@ body {
       left: 15%;
     }
     .project-position {
+        left: 15%;
+    }
+
+    .chat-position {
         left: 15%;
     }
   }

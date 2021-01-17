@@ -16,6 +16,10 @@ app.use('/project', router.get('/'), (req, res) => {
     res.render('project')
 })
 
+app.use('/chat', router.get('/'), (req, res) => {
+    res.render('chat')
+})
+
 app.get('*', (req, res) => {
   res.render('404');
 })
