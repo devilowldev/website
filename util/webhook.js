@@ -7,7 +7,7 @@ module.exports = () => {
 
     const embed = new MessageBuilder()
         .setTitle('Website')
-        .setURL('https://www.null.com')
+        .setURL('https://www.devilowl.js.org')
         .setDescription(`Website Restart (${x})`)
         .setTimestamp()
     hook.send(embed)
